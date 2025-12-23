@@ -56,13 +56,13 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="relative flex justify-center lg:justify-end mt-8 lg:mt-0"
         >
-          <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96">
-            <div className="absolute inset-0 bg-gradient-to-tr from-primary to-purple-600 rounded-full opacity-20 blur-3xl animate-pulse" />
+          <div className="relative w-64 sm:w-80 md:w-96 aspect-[3/4]">
+            <div className="absolute inset-0 bg-gradient-to-tr from-primary to-purple-600 rounded-[2rem] opacity-20 blur-3xl animate-pulse" />
             <div className="relative w-full h-full rounded-2xl overflow-hidden border border-border/50 shadow-2xl bg-muted/30 backdrop-blur-sm flex items-center justify-center">
                <img 
                 src="/compressed.jpg" 
                 alt="Ariel Stevano" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
                />
             </div>
           </div>
