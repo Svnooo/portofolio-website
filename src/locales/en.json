@@ -1,0 +1,45 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "hero": {
+        "badge": "Available for work",
+        "title": "Building <1>Reliable Digital</1> Products",
+        "description": "I'm a full stack engineer who enjoys turning complex requirements into clean, scalable, and maintainable web applications. Experienced in both frontend and backend development, with a strong focus on system design and real-world use cases.",
+        "view_projects": "View Projects",
+        "download_cv": "Download CV"
+    },
+    "about": {
+        "title": "About Me",
+        "subtitle": "Get to know more about my journey, experience, and what drives me.",
+        "heading": "Focused on clarity, structure, and real-world use cases.",
+        "p1": "I'm a full stack engineer based in Indonesia with hands-on experience working on real-world and enterprise-style web applications.",
+        "p2": "I enjoy building systems that are not only functional, but also structured, secure, and easy to maintain. I'm particularly interested in how business requirements are translated into clear workflows and well-designed systems.",
+        "p3": "Through internships and academic projects, I've worked on features such as multi-step approval workflows, access control, and data-driven systems, collaborating closely with teams in agile environments.",
+        "projects_completed": "Projects Completed",
+        "tools_and_technologies": "Tools & Technologies"
+    },
+    "skills": {
+        "title": "Skills",
+        "subtitle": "My technical proficiency and tools I use."
+    },
+    "projects": {
+        "title": "Featured Projects",
+        "subtitle": "Here are some of my recent works."
+    },
+    "contact": {
+        "title": "Get In Touch",
+        "subtitle": "Have a project in mind? Let's work together.",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send Message"
+    },
+    "footer": {
+        "rights": "All rights reserved."
+    }
+}

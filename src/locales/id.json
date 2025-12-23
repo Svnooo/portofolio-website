@@ -1,0 +1,45 @@
+{
+    "navbar": {
+        "home": "Beranda",
+        "about": "Tentang",
+        "skills": "Keahlian",
+        "projects": "Proyek",
+        "contact": "Kontak"
+    },
+    "hero": {
+        "badge": "Tersedia untuk bekerja",
+        "title": "Membangun Produk <1>Digital yang Andal</1>",
+        "description": "Saya adalah full stack engineer yang senang mengubah kebutuhan kompleks menjadi aplikasi web yang bersih, skalabel, dan mudah dipelihara. Berpengalaman dalam pengembangan frontend dan backend, dengan fokus kuat pada desain sistem dan kasus penggunaan dunia nyata.",
+        "view_projects": "Lihat Proyek",
+        "download_cv": "Unduh CV"
+    },
+    "about": {
+        "title": "Tentang Saya",
+        "subtitle": "Kenali lebih jauh tentang perjalanan, pengalaman, dan apa yang memotivasi saya.",
+        "heading": "Berfokus pada kejelasan, struktur, dan kasus penggunaan dunia nyata.",
+        "p1": "Saya adalah full stack engineer berbasis di Indonesia dengan pengalaman langsung mengerjakan aplikasi web dunia nyata dan skala enterprise.",
+        "p2": "Saya senang membangun sistem yang tidak hanya fungsional, tetapi juga terstruktur, aman, dan mudah dipelihara. Saya sangat tertarik pada bagaimana kebutuhan bisnis diterjemahkan menjadi alur kerja yang jelas dan sistem yang dirancang dengan baik.",
+        "p3": "Melalui magang dan proyek akademik, saya telah mengerjakan fitur-fitur seperti alur kerja persetujuan multi-langkah, kontrol akses, dan sistem berbasis data, berkolaborasi erat dengan tim dalam lingkungan agile.",
+        "projects_completed": "Proyek Selesai",
+        "technologies_mastered": "Teknologi Dikuasai"
+    },
+    "skills": {
+        "title": "Keahlian",
+        "subtitle": "Kemampuan teknis dan alat yang saya gunakan."
+    },
+    "projects": {
+        "title": "Proyek Unggulan",
+        "subtitle": "Berikut adalah beberapa karya terbaru saya."
+    },
+    "contact": {
+        "title": "Hubungi Saya",
+        "subtitle": "Punya proyek? Mari bekerja sama.",
+        "name": "Nama",
+        "email": "Email",
+        "message": "Pesan",
+        "send": "Kirim Pesan"
+    },
+    "footer": {
+        "rights": "Hak cipta dilindungi."
+    }
+}
