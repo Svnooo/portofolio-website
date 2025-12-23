@@ -11,38 +11,61 @@ export function Projects() {
   const projects = [
     {
       title: "Employee Expense & Reimbursement System",
-      description: "A web-based reimbursement system designed to handle multi-step approval workflows and role-based access in an organizational environment.",
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+      description:
+        "A web-based reimbursement system designed to handle multi-step approval workflows and role-based access in an organizational environment.",
+      image:
+        "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
       tags: ["Spring Boot", "React Vite", "Tailwind CSS", "MySQL"],
       keyFocus: ["Business workflow", "Access control", "Data consistency"],
-      github: "#",
+      github: "https://github.com/Svnooo/claimease-project",
       demo: "#",
     },
     {
       title: "Driving Monitoring System",
-      description: "A real-time monitoring system supporting AI-based driver safety detection during pilot deployment.",
-      image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&q=80",
-      tags: ["FastAPI", "React Vite","Tailwind CSS", "Google Cloud Platform", "FireStore"],
+      description:
+        "A real-time monitoring system supporting AI-based driver safety detection during pilot deployment. The system focuses on real-time data ingestion, event processing, and system integration in an industrial environment.",
+      image:
+        "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&q=80",
+      tags: [
+        "FastAPI",
+        "React Vite",
+        "Tailwind CSS",
+        "Google Cloud Platform",
+        "Firestore",
+      ],
       keyFocus: ["Real-time data handling", "System integration"],
       github: "#",
       demo: "#",
+      note: "Confidential project – source code and live demo are not publicly accessible.",
     },
     {
       title: "Tourism Recommendation System",
-      description: "A data-driven tourism recommendation system built using a knowledge graph approach.",
-      image: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80",
-      tags: ["FastAPI","React Vite","Tailwind CSS", "Knowledge Graph","PostgreSQL", "Neo4J"],
-      keyFocus: ["Data modeling", "Recommendation logic"],
-      github: "#",
+      description:
+        "A data-driven tourism package recommendation system for West Kalimantan, built using a knowledge graph to model relationships between destinations, accommodations, and culinary spots. The system applies a weighted random walk approach to generate personalized and context-aware travel package recommendations based on relevance and connectivity.",
+
+      image:
+        "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80",
+      tags: [
+        "FastAPI",
+        "React Vite",
+        "Tailwind CSS",
+        "Knowledge Graph",
+        "PostgreSQL",
+        "Neo4J",
+      ],
+      keyFocus: ["Data modeling", "Recommendation logic", "Graph Based Recommendation"],
+      github: "https://github.com/Svnooo/RecommendationSystemInKalbar",
       demo: "#",
     },
     {
-      title: "Localine (3rd Place Winner)",
-      description: "A digital platform to help small and medium enterprises improve their online presence.",
-      image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80",
+      title: "Localine – SME Digital Platform",
+      description:
+        "A digital platform designed to help small and medium enterprises improve their online presence and reach wider markets. Awarded 3rd Place at IT Days 2024 Web Development Competition.",
+      image:
+        "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80",
       tags: ["React Vite", "Tailwind CSS"],
       keyFocus: ["Frontend architecture", "User experience"],
-      github: "#",
+      github: "https://github.com/Svnooo/Lokaline",
       demo: "#",
     },
   ];
@@ -57,9 +80,11 @@ export function Projects() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">{t('projects.title')}</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            {t("projects.title")}
+          </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            {t('projects.subtitle')}
+            {t("projects.subtitle")}
           </p>
         </motion.div>
 
@@ -81,24 +106,46 @@ export function Projects() {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
                   />
                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4 z-20">
-                    <Button size="icon" variant="secondary" className="rounded-full hover:scale-110 transition-transform" asChild>
-                      <a href={project.github} target="_blank" rel="noopener noreferrer">
+                    <Button
+                      size="icon"
+                      variant="secondary"
+                      className="rounded-full hover:scale-110 transition-transform"
+                      asChild
+                    >
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <Github className="w-5 h-5" />
                       </a>
                     </Button>
-                    <Button size="icon" variant="secondary" className="rounded-full hover:scale-110 transition-transform" asChild>
-                      <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                    <Button
+                      size="icon"
+                      variant="secondary"
+                      className="rounded-full hover:scale-110 transition-transform"
+                      asChild
+                    >
+                      <a
+                        href={project.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <ExternalLink className="w-5 h-5" />
                       </a>
                     </Button>
                   </div>
                 </div>
                 <CardHeader>
-                  <CardTitle className="text-lg md:text-xl font-bold group-hover:text-primary transition-colors">{project.title}</CardTitle>
+                  <CardTitle className="text-lg md:text-xl font-bold group-hover:text-primary transition-colors">
+                    {project.title}
+                  </CardTitle>
                 </CardHeader>
                 <CardContent className="flex-grow flex flex-col gap-4 md:gap-6">
-                  <p className="text-sm md:text-base text-muted-foreground leading-relaxed">{project.description}</p>
-                  
+                  <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
+                    {project.description}
+                  </p>
+
                   <div className="space-y-3">
                     <h4 className="text-xs md:text-sm font-semibold text-foreground flex items-center gap-2">
                       <span className="h-1.5 w-1.5 rounded-full bg-primary" />
@@ -106,7 +153,10 @@ export function Projects() {
                     </h4>
                     <div className="grid grid-cols-1 gap-2">
                       {project.keyFocus.map((focus, i) => (
-                        <div key={i} className="flex items-center gap-2 text-xs md:text-sm text-muted-foreground bg-secondary/30 p-2 rounded-md">
+                        <div
+                          key={i}
+                          className="flex items-center gap-2 text-xs md:text-sm text-muted-foreground bg-secondary/30 p-2 rounded-md"
+                        >
                           <div className="h-1 w-1 rounded-full bg-primary/50" />
                           {focus}
                         </div>
@@ -116,10 +166,18 @@ export function Projects() {
 
                   <div className="flex flex-wrap gap-2 mt-auto pt-4 border-t border-border/50">
                     {project.tags.map((tag) => (
-                      <Badge key={tag} variant="outline" className="text-[10px] md:text-xs py-1 px-2 border-primary/20 text-primary/80">
+                      <Badge
+                        key={tag}
+                        variant="outline"
+                        className="text-[10px] md:text-xs py-1 px-2 border-primary/20 text-primary/80"
+                      >
                         {tag}
                       </Badge>
                     ))}
+                    <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
+                      <span className="font-semibold">Note:</span>{" "}
+                      {project.note}
+                    </p>
                   </div>
                 </CardContent>
               </Card>
